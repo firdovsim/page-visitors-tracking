@@ -1,6 +1,9 @@
 In order to run code, you need to set up Web Server,
 which will run `index1.html` and `index2.html` files, so PHP code will work properly
 
+I can use, of course, classes, OOP, composer autoloader, but today I avoided to do that, as I don't want to complicate
+
+
 Here is a configuration file example for nginx
 ```
 server {
