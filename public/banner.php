@@ -28,3 +28,7 @@ if ($result) {
     $stmt = $conn->prepare("INSERT INTO visitors (ip_address, user_agent, page_url, view_date, views_count) VALUES (:ip_address, :user_agent, :page_url, :view_date, 1)");
     $stmt->execute(['ip_address' => $ip_address, 'user_agent' => $user_agent, 'page_url' => $page_url, 'view_date' => $view_date]);
 }
+
+
+header('Content-Type: image/jpeg');
+readfile('image.jpeg');
